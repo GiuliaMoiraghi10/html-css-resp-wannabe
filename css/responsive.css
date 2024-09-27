@@ -3,7 +3,7 @@
 @media (max-width: 768px) {
 
     .container{
-        max-width: 768px;
+        width: 768px;
     }
 }
 
@@ -14,7 +14,7 @@
     }
 
     .container{
-        max-width: 480px;
+        width: 480px;
     }
 
     .row{
@@ -23,12 +23,11 @@
         justify-content: center;
     }
 
-    .col{
-        margin-bottom: 40px;
-    }
-
     .why-us{
         background-color: black;
     }
     
+    .col{
+        margin-bottom: 30px;
+    }
 }
