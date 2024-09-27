@@ -1,8 +1,34 @@
 /* DESKTOP FIRST */
+
 @media (max-width: 768px) {
 
     .container{
         max-width: 768px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .container .col{
+        width: 100%;
+    }
+
+    .container{
+        max-width: 480px;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col{
+        margin-bottom: 40px;
+    }
+
+    .why-us{
+        background-color: black;
     }
     
 }
